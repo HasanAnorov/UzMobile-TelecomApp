@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+<item android:id="@+id/balans"
+    android:title="@string/balance"
+    android:icon="@drawable/group_12"
+    app:showAsAction="ifRoom"/>
+
+
+    <item android:id="@+id/operator"
+        android:title="@string/operator"
+        android:icon="@drawable/group_13"
+        app:showAsAction="ifRoom"/>
+
+    <item android:id="@+id/notFound"
+        app:showAsAction="ifRoom"
+        android:title="" />
+
+
+    <item android:id="@+id/yangiliklar"
+        android:title="@string/yangiliklar"
+        android:icon="@drawable/group_11"
+        app:showAsAction="ifRoom"/>
+
+
+    <item android:id="@+id/sozlamalar"
+        android:title="@string/sozlamalar"
+        android:icon="@drawable/group_10"
+        app:showAsAction="ifRoom"/>
+</menu>
